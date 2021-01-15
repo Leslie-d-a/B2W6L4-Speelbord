@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 40px;
+    background-color: grey;
+}
+#top {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: yellow;
+}
+#top button{
+    position: relative;
+    left: 40%;
+    width: 20%;
+    margin-top: 20px;
+}
+#top div {
+    margin-top: 20px;
+}
+#woord, #letter{
+    position: absolute;
+    right: 0;
+    height: 40px;
+}
+#bottom {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+#bottom ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#bottom ul li {
+    background-color: white;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+	display: inline-block;
+}
